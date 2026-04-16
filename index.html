@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mind Mirror | 心理自我探索測驗館</title>
+    <meta
+      name="description"
+      content="12 款心理自我探索測驗，從人格、情緒、壓力、關係到人生價值，用更像鏡子的方式理解自己。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&family=Noto+Serif+TC:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="page-home">
+    <div class="ambient ambient-a" aria-hidden="true"></div>
+    <div class="ambient ambient-b" aria-hidden="true"></div>
+    <div class="ambient ambient-c" aria-hidden="true"></div>
+
+    <main class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark">◌</span>
+          <span class="brand-copy">
+            <strong>Mind Mirror</strong>
+            <small>心理自我探索測驗館</small>
+          </span>
+        </a>
+        <a class="ghost-link" href="#quiz-grid">開始探索</a>
+      </header>
+
+      <section class="home-hero">
+        <div class="home-hero__copy">
+          <p class="eyebrow">心理自我探索測驗系統</p>
+          <h1 class="hero-display">用 8 題，陪你看見更真實的自己。</h1>
+          <p class="hero-lead">
+            這裡的測驗更像一面鏡子。你會從心智、情緒、人格、
+            關係、壓力與價值觀
+            的日常細節裡，看見自己慣性的思考方式、情緒節奏、內在拉扯與真正重視的事。
+          </p>
+
+          <div class="hero-pill-row">
+            <span>12 個主題</span>
+            <span>每次隨機 8 題</span>
+            <span>匿名體驗</span>
+            <span>結果可儲存與分析</span>
+          </div>
+
+          <div class="hero-cta-row">
+            <a class="primary-btn primary-btn--inline" href="#quiz-grid">挑一個主題開始</a>
+            <p class="hero-privacy">
+              你做出的每個選擇，都在透露你怎麼保護、靠近、衡量與渴望。
+            </p>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="hero-panel__card">
+            <p class="eyebrow">你會得到什麼</p>
+            <h2>一份比標籤更像你的結果</h2>
+            <ul class="feature-list">
+              <li>結果會用一個類型名開場，也會解釋你怎麼想、怎麼反應、怎麼保護自己。</li>
+              <li>每份結果都會包含優勢、容易忽略的地方，以及溫柔的成長建議。</li>
+              <li>題庫超過 30 題，每次隨機抽 8 題，重測也不會像在重播同一套題目。</li>
+            </ul>
+          </div>
+          <div class="hero-panel__quote">
+            <p>「你來到這裡，不需要證明自己；你只需要被好好看見。」</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="method-strip">
+        <article>
+          <h3>貼近日常</h3>
+          <p>題目貼近日常真實場景，包含訊息延遲、臨時變動、情緒暗流、關係界線與選擇成本。</p>
+        </article>
+        <article>
+          <h3>細緻分辨</h3>
+          <p>每個選項都對應心理傾向。你看到的是模式、節奏與近期常啟動的內在系統。</p>
+        </article>
+        <article>
+          <h3>溫柔誠實</h3>
+          <p>結果會像一個溫柔但誠實的鏡子，告訴你真正常啟動的是哪一套內在系統。</p>
+        </article>
+      </section>
+
+      <section class="quiz-catalog">
+        <div class="section-heading">
+          <p class="eyebrow">測驗目錄</p>
+          <h2>12 個心理探索主題</h2>
+          <p>
+            從人格節奏、情緒慣性到壓力反應與人生價值，選一個你最近最常卡住、最想理解的面向開始。
+          </p>
+        </div>
+
+        <div class="topic-grid" id="quiz-grid" aria-live="polite"></div>
+      </section>
+
+      <footer class="site-footer site-footer--home">
+        <p>Mind Mirror 為自我理解而設計，不用來取代診斷。</p>
+        <p>版權所有 © 2026 | 為溫柔、清醒、有情緒智慧的測驗而打造</p>
+      </footer>
+    </main>
+
+    <script src="./config.js"></script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

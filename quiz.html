@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mind Mirror | 測驗</title>
+    <meta
+      name="description"
+      content="透過 8 題動態抽選的心理自我探索測驗，看見你更深層的思考、情緒與行為模式。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&family=Noto+Serif+TC:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="page-quiz">
+    <div class="ambient ambient-a" aria-hidden="true"></div>
+    <div class="ambient ambient-b" aria-hidden="true"></div>
+    <div class="ambient ambient-c" aria-hidden="true"></div>
+
+    <main class="site-shell site-shell--quiz">
+      <header class="site-header site-header--quiz">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark">◌</span>
+          <span class="brand-copy">
+            <strong>Mind Mirror</strong>
+            <small>心理自我探索測驗館</small>
+          </span>
+        </a>
+        <a class="ghost-link" href="./index.html">回到全部測驗</a>
+      </header>
+
+      <section class="quiz-page-layout">
+        <aside class="quiz-side-note">
+          <p class="eyebrow">鏡像模式</p>
+          <h2 id="topic-side-title">正在載入主題</h2>
+          <p id="topic-side-copy">
+            這份測驗會照出你更常依賴的那一套心理路徑。
+          </p>
+
+          <div class="quiz-side-meta">
+            <span id="mode-badge">本機體驗</span>
+            <span id="question-count-badge">8 / 32 題池</span>
+          </div>
+        </aside>
+
+        <section class="quiz-workspace" id="quiz-root" aria-live="polite">
+          <div class="quiz-loading">
+            <p class="eyebrow">主題載入中</p>
+            <h1>正在整理你的鏡子……</h1>
+            <p>題目、結果與心理軸線正在載入中。</p>
+          </div>
+        </section>
+      </section>
+
+      <footer class="site-footer">
+        <p>啟用後端設定後，Mind Mirror 會儲存匿名測驗紀錄與行為分析。</p>
+      </footer>
+    </main>
+
+    <script src="./config.js"></script>
+    <script type="module" src="./quiz.js"></script>
+  </body>
+</html>
