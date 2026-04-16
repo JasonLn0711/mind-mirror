@@ -1,0 +1,10 @@
+{
+  "name": "psychological-self-discovery-quiz-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:seed": "node ./scripts/build-seed-assets.mjs",
+    "test": "node --test"
+  }
+}
