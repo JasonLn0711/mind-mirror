@@ -1,3 +1,4 @@
+<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=JasonLn0711&repo=mind-mirror&countColor=%237B1E7B" alt="Visitor count"/>
 <div align="center">
 
 # Mind Mirror
